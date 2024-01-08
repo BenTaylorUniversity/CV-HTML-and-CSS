@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Cambria;
+    margin: 0;
+  }
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #36383e;
+    color: white;
+    font-family: Cambria;
+  }
+
+  .header h2 {
+    margin: 0; 
+  }
+
+  .header h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+
+  .hr-thick {
+    border-top: 3px solid black;
+  }
+
+  .dates {
+    background-color: lightgrey;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Cambria;
+  }
+
+  .navbar a.right {
+    float: right;
+  }
+
+  .navbar a:hover {
+    background-color: grey;
+    color: black;
+  }
+
+  .row {  
+    display: flex;  
+    flex-wrap: wrap;
+  }
+
+  .side {
+    flex: 20%;
+    background-color: #eee7e1;
+    padding: 20px;
+  }
+
+  .main {   
+    flex: 80%;
+    background-color: white;
+    padding: 50px;
+  }
+
+  .PhotoOfMe {
+    width: 100%;
+    max-width: 250px;
+    overflow: hidden;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .PhotoOfMe img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>BEN TAYLOR</h1>
+</div>
+
+<div class="header">
+  <h2>CV</h2>
+</div>
+
+<div class="header">
+  <p>Computer Science Student | Aspiring Software Engineer</p>
+</div>
+
+<div class="navbar">
+  <a href="https://github.com/BenTaylorUniversity/FilingCabinet/tree/main">Projects</a>
+  <a href="" class="right"></a>
+  
+  <a href="https://www.linkedin.com/in/ben-taylor-a949b5290/" class="right">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/480px-LinkedIn_icon_circle.svg.png" alt="Linkedin Logo" style="width:25px;height:25px;">
+  </a>
+
+  <a href="https://github.com/BenTaylorUniversity" class="right">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width:25px;height:25px;">
+  </a>
+
+  <a href="mailto:bentayloruni@gmail.com" class="right">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" style="width:25px;height:25px;">
+  </a>
+
+
+</div>
+
+<div class="row">
+  <div class="side">
+    <div class="PhotoOfMe">
+      <img src="https://shorturl.at/moABT" alt="Photo of me">
+    </div>
+    <h3>CONTACT ME</h3>
+    <hr>
+    <div style="display: flex; align-items: center;">
+      <img src="https://img.freepik.com/premium-vector/phone-icon-inside-black-circle-pictogram-phone-box-place-where-you-can-use-telephone-isola_764382-951.jpg" alt="Phone Logo" style="width:25px;height:25px; margin-right: 10px;">
+      <p style="margin: 0;">Phone Number: 07385805079</p>
+    </div>
+
+    <div style="display: flex; align-items: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail Logo" style="width:25px;height:25px; margin-right: 10px;">
+      <p style="margin: 0;">bentayloruni@gmail.com</p>
+    </div>
+
+    <br>
+
+    <h2>Education</h2>
+    <hr>
+  
+    <h4>Canterbury Christ Church University, UK (2023 - Current)</h3>
+    <ul>
+      <li>Pursuing a BSc in Software Engineering (expected graduation in 2026)</li>
+      <br>
+    </ul>
+
+    <h4>Strood Academy Sixth Form, UK <br>(2021 - 2023)</h3>
+
+    <ul>
+      <li>BTEC Level 3 Extended Certificate in IT - <strong>Distinction</strong></li>
+      <br>
+      <li>IB Geography - <strong> H6 (A)</strong></li>
+      <br>
+      <li>A Level Media Studies - <strong> C </strong></li>
+    </ul>
+    
+    <h3>Skills</h3>
+    <hr>
+    <ul>
+      <li> Critical Thinking </li>
+      <li> Problem Solving </li>
+      <li> Communication </li>
+      <li> Teamwork </li>
+      <li> Flexible </li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h2>Professional Summary</h2>
+
+
+    <hr class="hr-thick">
+    <p style="font-size: 10">As a dedicated Computer Science student with a robust analytical mindset, I am committed to providing outstanding customer service. I am eager to apply my analytical and problem-solving skills in real-life scenarios, contributing effectively to a dynamic team.</p>
+
+    <h2>Work History</h2>
+    <hr class="hr-thick">
+
+    <h3><strong>Server - SushiMoto&Bento</strong></h3>
+    <div class="dates">
+      <p>6TH OCTOBER 2023 - PRESENT</p>
+    </div>
+
+    <p>Currently working at SushiMoto&Bento where I take customers’ orders, serve food, work on deliveries, make cold and hot drinks, along with handling money and up-to-date cash registers. This job has solidified my teamwork and customer service skills as well as working efficiently under pressure. Additionally, it has taught me how to better handle complaints and customer feedback.</p>
+
+    <h3><strong>Social Media Manager - SushiMoto&Bento</strong></h3>
+    <div class="dates">
+      <p>6TH OCTOBER 2023 - PRESENT</p>
+
+    </div>
+    <p>Building on the previous role, I managed the business' social media accounts on platforms like Facebook, Instagram, Twitter, etc. Managing social media accounts has allowed me to develop skills such as creating posts purposefully to attract an audience, posting at certain times in order to increase engagement, writing eye-catching captions and finding ways to reach a vast demographic.</p>
+    <h4>Examples:</h4>
+    <div class="imageb">
+      <img src="https://cdn.discordapp.com/attachments/938200909081628762/1193646394012086414/NFESNFUHESNFUIHESIHUFESNUIHFESIUFHES.png?ex=65ad78d5&is=659b03d5&hm=52bbf365b62d93ab9d299a2b214993d3ea10f94f7b9070f502d7abd414372ec6&" width="80%" height="80%">
+    </div>
+    
+    <h3><strong>Marketing Executive - Software Of Excellence UK (May 2022)</strong></h3>
+    <div class="dates">
+      <p>MAY 2022</p>
+    </div>
+
+    <p>I spent a week (16th May - 20th May 2022) working at Software Of Excellence UK for work experience where I was introduced to the Head of Marketing and the Head of Customer Success Team. I spent a large time there researching the advertisement sector of the company and the ways they distributed emails and information they used in order to achieve maximum sales for the company.</p>
+  </div>
+
+
+<div class="footer">
+  <p>&copy; 2024 Ben Taylor. All rights reserved.</p>
+</div>
+
+</body>
+</html>
